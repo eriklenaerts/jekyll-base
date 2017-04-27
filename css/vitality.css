@@ -11,35 +11,35 @@
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  color: #EF4035;
+  color: #B88D00;
   border-color: white;
   background-color: white;
 }
 .btn-secondary {
-  border: 1px solid #222;
+  border: 1px solid #1F1F1F;
   background-color: transparent;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: white;
-  border-color: #EF4035;
-  background-color: #EF4035;
+  border-color: #B88D00;
+  background-color: #B88D00;
 }
 button:hover {
   cursor: pointer;
 }
 .text-primary {
-  color: #EF4035 !important;
+  color: #B88D00 !important;
 }
 a.text-primary {
-  color: #EF4035 !important;
+  color: #B88D00 !important;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #c81b10 !important;
+  color: #6c5200 !important;
 }
 .bg-inverse {
-  background-color: #222 !important;
+  background-color: #1F1F1F !important;
 }
 .owl-carousel.owl-theme .owl-controls {
   margin-top: 0;
@@ -57,7 +57,7 @@ a.text-primary:focus {
   text-align: center;
   color: white !important;
   border-radius: 0 !important;
-  background-color: #EF4035 !important;
+  background-color: #B88D00 !important;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
@@ -73,7 +73,7 @@ a.text-primary:focus {
   right: 15px;
 }
 .owl-carousel.owl-theme .owl-controls .owl-page span {
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(31, 31, 31, 0.5);
 }
 .owl-carousel.owl-theme.portfolio-carousel .owl-controls .owl-prev {
   left: 0;
@@ -92,7 +92,7 @@ hr {
   border-bottom: 1px solid white;
 }
 hr.colored {
-  border-color: #EF4035;
+  border-color: #B88D00;
 }
 @media (min-width: 992px) {
   hr {
@@ -128,14 +128,14 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 a {
-  color: #EF4035;
+  color: #B88D00;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
 }
 a:hover,
 a:focus {
-  color: #c81b10;
+  color: #6c5200;
   text-decoration: none;
 }
 p {
@@ -169,7 +169,7 @@ h6 {
 #mainNav {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #222;
+  background-color: #1F1F1F;
   padding: 10px 0;
   min-height: 68px;
 }
@@ -183,7 +183,7 @@ h6 {
 }
 #mainNav .navbar-toggler:hover,
 #mainNav .navbar-toggler:focus {
-  color: #222;
+  color: #1F1F1F;
   background-color: white;
 }
 #mainNav .navbar-brand {
@@ -213,7 +213,7 @@ h6 {
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active,
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover,
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus {
-  color: #EF4035;
+  color: #B88D00;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -226,7 +226,7 @@ h6 {
   }
   #mainNav.navbar-shrink {
     padding: 5px 0;
-    background-color: #222;
+    background-color: #1F1F1F;
   }
   #mainNav .navbar-brand img {
     height: 50px;
@@ -240,7 +240,7 @@ h6 {
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active,
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover,
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus {
-    color: #EF4035;
+    color: #B88D00;
     border-radius: 0;
     background-color: white;
     border-radius: 5px;
@@ -251,7 +251,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 150px;
   background: no-repeat center center;
-  background-color: #222;
+  background-color: #1F1F1F;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -265,6 +265,7 @@ header.masthead .masthead-img {
 header.masthead .masthead-title {
   font-size: 4rem;
   line-height: 4rem;
+  color: #B88D00;
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -373,7 +374,7 @@ header.video .scroll-down {
   width: 100%;
   height: 100%;
   opacity: .5;
-  background-color: #222;
+  background-color: #1F1F1F;
 }
 .team-carousel .item .team-caption {
   position: absolute;
@@ -413,7 +414,7 @@ header.video .scroll-down {
   text-align: center;
   color: white;
   background: no-repeat center center scroll;
-  background-color: #222;
+  background-color: #1F1F1F;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -458,7 +459,7 @@ header.video .scroll-down {
   width: 75px;
   height: 75px;
   text-align: center;
-  border: 3px solid #222;
+  border: 3px solid #1F1F1F;
 }
 .services .media .media-body {
   min-width: none;
@@ -482,13 +483,13 @@ header.video .scroll-down {
 .portfolio-carousel {
   padding: 0;
   color: white;
-  background-color: #222;
+  background-color: #1F1F1F;
 }
 .portfolio-carousel .item {
   padding: 50px 55px;
   text-align: center;
   background: no-repeat center center scroll;
-  background-color: #222;
+  background-color: #1F1F1F;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -625,7 +626,7 @@ header.video .scroll-down {
   position: relative !important;
   overflow: hidden;
   cursor: pointer;
-  background: #222;
+  background: #1F1F1F;
 }
 .portfolio-grid .mix .portfolio-wrapper img {
   position: relative;
@@ -655,7 +656,7 @@ header.video .scroll-down {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #EF4035;
+  background: #B88D00;
 }
 .portfolio-grid .mix .portfolio-wrapper .caption .caption-text {
   position: relative;
@@ -717,7 +718,7 @@ header.video .scroll-down {
 .pricing {
   color: white;
   background: no-repeat center center scroll;
-  background-color: #222;
+  background-color: #1F1F1F;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -728,11 +729,11 @@ header.video .scroll-down {
   margin-bottom: 30px;
   padding: 30px;
   text-align: center;
-  color: #222;
+  color: #1F1F1F;
   background: white;
-  -webkit-box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
-  -moz-box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
-  box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
+  -webkit-box-shadow: 0 0 30px 5px rgba(31, 31, 31, 0.75);
+  -moz-box-shadow: 0 0 30px 5px rgba(31, 31, 31, 0.75);
+  box-shadow: 0 0 30px 5px rgba(31, 31, 31, 0.75);
 }
 .pricing .pricing-item h3 {
   margin: 0;
@@ -794,18 +795,18 @@ header.video .scroll-down {
 .signup-form .input-group .input-group-btn .btn-primary {
   border: 0;
   border-radius: 0;
-  background-color: #EF4035;
+  background-color: #B88D00;
   font-size: 1rem;
 }
 .signup-form .input-group .input-group-btn .btn-primary:hover {
   color: white;
-  background-color: #df1e12;
+  background-color: #856600;
 }
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #dedede;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -838,17 +839,17 @@ header.video .scroll-down {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid #dedede;
 }
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #EF4035;
+  color: #B88D00;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #dedede;
 }
 .btn-full-width {
   font-size: 26px;
@@ -859,11 +860,11 @@ form .row:first-child .floating-label-form-group {
   color: white;
   border: 0;
   border-radius: 0;
-  background-color: #222;
+  background-color: #1F1F1F;
 }
 .btn-full-width:hover {
   color: white;
-  background-color: #EF4035;
+  background-color: #B88D00;
 }
 .btn-full-width:focus {
   color: white;
