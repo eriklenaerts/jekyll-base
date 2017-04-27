@@ -31,6 +31,9 @@ button:hover {
 .text-primary {
   color: #B88D00 !important;
 }
+.text-secondary {
+  color: #007BB0 !important;
+}
 a.text-primary {
   color: #B88D00 !important;
 }
@@ -470,7 +473,8 @@ header.video .scroll-down {
 }
 .services .media .media-body ul {
   padding: 0;
-  list-style: inside;
+  list-style-type: none;
+  list-style: none;
 }
 .services .media .media-body ul li {
   margin-bottom: 10px;
