@@ -347,7 +347,7 @@ header.masthead .scroll-down .btn:hover {
 header.masthead-small {
   position: relative;
   padding-top: 150px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   background: no-repeat center center;
   background-color: #1F1F1F;
   background-attachment: scroll;
@@ -526,13 +526,11 @@ header.video .scroll-down {
 .services .media .media-body ul li {
   margin-bottom: 10px;
 }
-.services .panel .panel-heading {
-  font-size: 1.5rem;
-  text-align: center;
+.card-deck .card-img-top {
+  width: 100%;
 }
-.services .panel .panel-image {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.card-deck .card:not(:last-child) {
+  margin-right: 0px;
 }
 @media (min-width: 992px) {
   .services .media {
