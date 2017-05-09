@@ -344,6 +344,53 @@ header.masthead .scroll-down .btn:hover {
     background-attachment: scroll;
   }
 }
+header.masthead-small {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  background: no-repeat center center;
+  background-color: #1F1F1F;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header.masthead-small .masthead-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #B88D00;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+header.masthead-small .masthead-subtitle {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+@media (min-width: 992px) {
+  header.masthead-small {
+    min-height: 100px;
+  }
+  header.masthead-small .masthead-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  header.masthead-small .masthead-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  header.masthead-small {
+    background-attachment: fixed;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  header.masthead-small {
+    background-attachment: scroll;
+  }
+}
 header.video {
   background: transparent;
 }
@@ -477,6 +524,14 @@ header.video .scroll-down {
   list-style: none;
 }
 .services .media .media-body ul li {
+  margin-bottom: 10px;
+}
+.services .panel .panel-heading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.services .panel .panel-image {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 @media (min-width: 992px) {

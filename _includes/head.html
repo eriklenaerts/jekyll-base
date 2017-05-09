@@ -5,7 +5,11 @@
     <meta name="description" content="De ideale brainstorm ruimte vind je bij Castles &amp; Coffee. In onze creative spaces kan je als groep je nieuwe dromen ontwerpen. Hulp nodig? Geen probleem, onze business coaches kunnen je op weg helpen tijdens en na je off-site.">
     <meta name="author" content="Erik Lenaerts">
 
-    <title>{{ page.title }}</title>
+    {% if page.url == "/index.html" %}
+    <title>Castles &amp; Coffee</title>
+    {% else %}
+    <title>Castles &amp; Coffee | {{ page.title }}</title>
+    {% endif %}
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -21,20 +25,9 @@
     <link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
     <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="css/timeline.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this theme -->
-    <!-- Uncomment the color scheme you want to use! Red is chosen by default! -->
-    <!-- <link href="css/vitality-red.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-green.css" rel="stylesheet" type="text/css"> -->
     <link href="css/vitality.css" rel="stylesheet" type="text/css">
-    <!-- <link href="css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Temporary navbar container fix -->
     <style>
