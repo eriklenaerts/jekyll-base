@@ -6,27 +6,9 @@ header.masthead {
     background-color: @themeDark;
     background-attachment: scroll;
     .background-cover;
-    .masthead-img {
-        max-width: 150px;
-        max-height: 150px;
-    }
     .masthead-title {
-        font-size: 4rem;
-        line-height: 4rem;
         color: @themePrimary;
         .heading-font;
-    }
-    .masthead-subtitle {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
-    .masthead-title-small {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-    }
-    .masthead-subtitle-small {
-        font-size: 1rem;
-        line-height: 1rem;
     }
     .scroll-down {
         position: absolute;
@@ -52,10 +34,6 @@ header.masthead {
         }
     }
     @media (min-width: 992px) {
-        height: 100vh;
-        min-height: 700px;
-        padding-top: 0;
-        padding-bottom: 0;
         .masthead-img {
             max-width: 250px;
             max-height: 250px;
@@ -82,26 +60,37 @@ header.masthead {
     }
 }
 
-header.masthead-small {
-    position: relative;
-    padding-top: 150px;
+header.masthead-large {
+    .masthead-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .masthead-title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .masthead-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    @media (min-width: 992px) {
+      height: 100vh;
+      min-height: 700px;
+    }
+}
+
+header.masthead-medium {
+    padding-top: 100px;
     padding-bottom: 50px;
-    background: no-repeat center center;
-    background-color: @themeDark;
-    background-attachment: scroll;
-    .background-cover;
     .masthead-title {
         font-size: 2rem;
         line-height: 2rem;
-        color: @themePrimary;
-        .heading-font;
     }
     .masthead-subtitle {
         font-size: 1rem;
         line-height: 1rem;
     }
     @media (min-width: 992px) {
-        //height: 45vh;
         min-height: 100px;
         .masthead-title {
             font-size: 3rem;
@@ -112,12 +101,21 @@ header.masthead-small {
             line-height: 1.5rem;
         }
     }
-    @media (min-width: 1024px) {
-        background-attachment: fixed;
+}
+
+header.masthead-small {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .masthead-title {
+        font-size: 2rem;
+        line-height: 2rem;
     }
-    // Set background to scroll on landscape touch devices
-    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-        background-attachment: scroll;
+    .masthead-subtitle {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    @media (min-width: 992px) {
+        min-height: 50px;
     }
 }
 

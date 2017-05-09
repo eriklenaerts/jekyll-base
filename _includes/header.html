@@ -1,18 +1,24 @@
 <!-- Masthead -->
-<header class="masthead" style="background-image: url('{{ page.header-bg-url}}');">
+<header class="masthead {{ page.header-format }}" style="background-image: url('{{ page.header-bg-url}}');">
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-12 my-auto text-center text-white">
+                {% if page.header-format == 'masthead-large' %}
                 <img class="masthead-img img-fluid mb-3" src="img/profile.svg" alt="">
-                <div class="masthead-title">{{ page.title }}</div>
-                <hr class="colored">
-                <div class="masthead-subtitle">{{ page.subtitle Ò}}</div>
+                {% endif %}
+                {% if page.header-format != 'masthead-small' %}
+                  <div class="masthead-title">{{ page.title }}</div>
+                  <hr class="colored">
+                  <div class="masthead-subtitle">{{ page.subtitle Ò}}</div>
+                {% endif %}
             </div>
         </div>
     </div>
+    {% if page.header-format == 'masthead-large' %}
     <div class="scroll-down">
         <a class="btn page-scroll" href="#about">
             <i class="fa fa-angle-down fa-fw"></i>
         </a>
     </div>
+    {% endif %}
 </header>

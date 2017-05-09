@@ -261,29 +261,11 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
-header.masthead .masthead-img {
-  max-width: 150px;
-  max-height: 150px;
-}
 header.masthead .masthead-title {
-  font-size: 4rem;
-  line-height: 4rem;
   color: #B88D00;
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-}
-header.masthead .masthead-subtitle {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-}
-header.masthead .masthead-title-small {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-}
-header.masthead .masthead-subtitle-small {
-  font-size: 1rem;
-  line-height: 1rem;
 }
 header.masthead .scroll-down {
   position: absolute;
@@ -311,12 +293,6 @@ header.masthead .scroll-down .btn:hover {
   outline: none;
 }
 @media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 700px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
   header.masthead .masthead-img {
     max-width: 250px;
     max-height: 250px;
@@ -344,25 +320,56 @@ header.masthead .scroll-down .btn:hover {
     background-attachment: scroll;
   }
 }
-header.masthead-small {
-  position: relative;
-  padding-top: 150px;
+header.masthead-large .masthead-img {
+  max-width: 150px;
+  max-height: 150px;
+}
+header.masthead-large .masthead-title {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+header.masthead-large .masthead-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+@media (min-width: 992px) {
+  header.masthead-large {
+    height: 100vh;
+    min-height: 700px;
+  }
+}
+header.masthead-medium {
+  padding-top: 100px;
   padding-bottom: 50px;
-  background: no-repeat center center;
-  background-color: #1F1F1F;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
+header.masthead-medium .masthead-title {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+header.masthead-medium .masthead-subtitle {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+@media (min-width: 992px) {
+  header.masthead-medium {
+    min-height: 100px;
+  }
+  header.masthead-medium .masthead-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  header.masthead-medium .masthead-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+header.masthead-small {
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 header.masthead-small .masthead-title {
   font-size: 2rem;
   line-height: 2rem;
-  color: #B88D00;
-  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
 }
 header.masthead-small .masthead-subtitle {
   font-size: 1rem;
@@ -370,25 +377,7 @@ header.masthead-small .masthead-subtitle {
 }
 @media (min-width: 992px) {
   header.masthead-small {
-    min-height: 100px;
-  }
-  header.masthead-small .masthead-title {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-  header.masthead-small .masthead-subtitle {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-  }
-}
-@media (min-width: 1024px) {
-  header.masthead-small {
-    background-attachment: fixed;
-  }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  header.masthead-small {
-    background-attachment: scroll;
+    min-height: 50px;
   }
 }
 header.video {
@@ -488,7 +477,7 @@ header.video .scroll-down {
 }
 @media (min-width: 992px) {
   .call-to-action {
-    padding: 300px 0;
+    padding: 200px 0;
   }
   .call-to-action span.quote {
     font-size: 40px;
@@ -522,6 +511,8 @@ header.video .scroll-down {
   padding: 0;
   list-style-type: none;
   list-style: none;
+  border-left: 1px solid #1F1F1F;
+  padding-left: 10px;
 }
 .services .media .media-body ul li {
   margin-bottom: 10px;
